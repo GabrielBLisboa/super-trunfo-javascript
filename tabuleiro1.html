@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trunfo - Diretores</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style-tabuleiros.css">
+</head>
+<body>
+
+<header class="cabecalho">SUPER TRUNFO</header>
+
+    <main class="tabuleiro">
+
+        <section class="carta-jogador" id="nome-carta" data-name="Nome-DaCarta">
+            <h1 class="titulo">Sua carta</h1>
+            <img src="src/posters-tarantino/death-proof.jpg" alt="Carta do Jogador">
+            <h3>Cartas na sua mão: </h3>
+            <h2 id="numeroJogador"> 5 </h2>
+        </section>
+    
+        <section class="jogo">
+            <h1 id="turno" style="margin-bottom: 30px;">Turno do Jogador!</h1>
+            <div class="atributos" id="atributos" >
+                <h1 class="titulo">Selecione um atributo</h1>
+                <ul class="lista-de-atributos">
+                    <li id="ano">Ano</li>
+                    <li id="duracao">Duração (min)</li>
+                    <li id="orcamento"> Orçamento (milhões)</li>
+                    <li id="bilheteria"> Bilheteria (milhões)</li>
+                    <li id="lucro">Lucro (milhões)</li>
+                </ul>
+            </div>
+        
+            <div class="disputa" id="nome-carta" data-name="Nome-DaCarta">
+                <h1 class="titulo">Seu atributo:</h1>
+                <p>  </p>
+                <p> ----------------------- </p>
+                <h1 class="titulo">Atributo do PC:</h1>
+                <p>  </p>
+                <p> ----------------------- </p>
+                <h1 class="titulo">Vencedor:</h1>
+                <p>  </p>
+            </div>
+
+            <button id="restartBtn" style="width: 80px; height: 30px; margin-top: 60px;"> Próxima </button>
+
+        </section>
+
+        <section class="carta-computador" id="nome-carta" data-name="Nome-DaCarta">
+            <h1 class="titulo">Carta do Computador</h1>
+            <img src="src/imagens/costas.png" alt="Carta do Computador">
+            <h3>Cartas com o Computador: </h3>
+            <h2 id="numeroJogador"> 5 </h2>
+        </section>
+
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>

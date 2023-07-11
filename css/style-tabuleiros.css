@@ -1,0 +1,52 @@
+body {
+    font-family: Oxanium, cursive;
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    font-size: 500%;
+}
+
+li{
+    font-size: 20px;
+}
+
+.tabuleiro{
+    padding-left: 100px;
+    padding-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.carta-jogador{
+    margin-left: 150px;
+}
+
+.jogo{
+    margin-left: 50px;
+}
+
+.disputa{
+    margin-top: 50px;
+}
+
+.lista-de-atributos{
+    justify-content: center;
+    align-items: center;
+}
+
+.carta-computador{
+    margin-left:120px;
+}
+
+.tabuleiro .carta-jogador img{
+    height: 400px;
+}
+
+.tabuleiro .carta-computador img{
+    height: 400px;
+}
